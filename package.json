@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-project-v1",
+  "version": "1.0.0",
+  "description": "learning tailwinc css",
+  "main": "index.js",
+  "scripts": {
+    "tw": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "john-ho",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.11"
+  },
+  "dependencies": {
+    "@check-light-or-dark/color": "^1.0.3",
+    "@fortawesome/fontawesome-free": "^6.2.0"
+  }
+}
