@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "learning tailwinc css",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "tw": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },

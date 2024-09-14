@@ -5,3 +5,4 @@
 4. Finish the menu items, editing techniques, & tailwind css components
 5. Create the sub menu items & use tailwind css group functionality
 6. Create the mobile menu icon
+7. Animate mobile menu icon & create custom variant plugin with addVariant
