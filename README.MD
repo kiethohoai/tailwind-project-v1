@@ -4,3 +4,4 @@
 3. Create the first menu item, add classes on hover, & add transitions
 4. Finish the menu items, editing techniques, & tailwind css components
 5. Create the sub menu items & use tailwind css group functionality
+6. Create the mobile menu icon
