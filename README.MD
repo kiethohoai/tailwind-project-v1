@@ -6,3 +6,4 @@
 5. Create the sub menu items & use tailwind css group functionality
 6. Create the mobile menu icon
 7. Animate mobile menu icon & create custom variant plugin with addVariant
+8. Extend tailwind css custom open variant & implement mobile menu functionality
