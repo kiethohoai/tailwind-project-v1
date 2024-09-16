@@ -12,3 +12,5 @@
 ### 3. Building the Hero section
 
 1. Create the Hero section and background image
+2. Add the hero content
+3. Create the waveform logo animation
