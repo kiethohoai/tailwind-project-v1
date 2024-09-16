@@ -15,3 +15,7 @@
 2. Add the hero content
 3. Create the waveform logo animation
 4. Create custom animation delay tailwind css plugin with matchUtilities
+
+### 4. Building the headliners section & carousel
+
+1. Default base styles for headings
