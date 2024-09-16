@@ -21,3 +21,7 @@
 1. Default base styles for headings
 2. Create a scrollable & snappable carousel in tailwind css
 3. Adding left and right arrows to the carousel
+
+### 5. Light and dark mode
+
+1. Implement light and dark mode based on user_s local machine settings
