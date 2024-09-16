@@ -20,3 +20,4 @@
 
 1. Default base styles for headings
 2. Create a scrollable & snappable carousel in tailwind css
+3. Adding left and right arrows to the carousel

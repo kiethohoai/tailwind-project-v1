@@ -695,6 +695,10 @@ h6{
   top: 100%;
 }
 
+.-top-8{
+  top: -2rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -703,11 +707,6 @@ h6{
 .my-auto{
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.mx-5{
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
 }
 
 .-mt-\[70px\]{
@@ -726,6 +725,10 @@ h6{
   margin-top: 0.25rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .mt-20{
   margin-top: 5rem;
 }
@@ -736,10 +739,6 @@ h6{
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
 }
 
 .block{
@@ -778,16 +777,16 @@ h6{
   height: 1rem;
 }
 
+.h-80{
+  height: 20rem;
+}
+
 .h-\[80vh\]{
   height: 80vh;
 }
 
 .h-full{
   height: 100%;
-}
-
-.h-80{
-  height: 20rem;
 }
 
 .min-h-\[400px\]{
@@ -808,14 +807,6 @@ h6{
 
 .w-full{
   width: 100%;
-}
-
-.min-w-\[\]{
-  min-width: ;
-}
-
-.min-w-\[80\]{
-  min-width: 80;
 }
 
 .min-w-\[80\%\]{
@@ -910,6 +901,10 @@ h6{
   overflow-x: auto;
 }
 
+.scroll-smooth{
+  scroll-behavior: smooth;
+}
+
 .whitespace-nowrap{
   white-space: nowrap;
 }
@@ -924,10 +919,6 @@ h6{
 
 .rounded-xl{
   border-radius: 0.75rem;
-}
-
-.rounded{
-  border-radius: 0.25rem;
 }
 
 .rounded-b-md{
@@ -1020,12 +1011,12 @@ h6{
   padding-bottom: 0.5rem;
 }
 
-.pr-4{
-  padding-right: 1rem;
-}
-
 .pb-5{
   padding-bottom: 1.25rem;
+}
+
+.pr-4{
+  padding-right: 1rem;
 }
 
 .text-center{
@@ -1100,11 +1091,6 @@ h6{
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-black{
-  --tw-shadow-color: #000;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .shadow-black\/20{
@@ -1238,18 +1224,6 @@ h6{
 
   .md\:hidden{
     display: none;
-  }
-
-  .md\:min-h-4{
-    min-height: 1rem;
-  }
-
-  .md\:min-h-\[\]{
-    min-height: ;
-  }
-
-  .md\:min-h-\[40\%\]{
-    min-height: 40%;
   }
 
   .md\:min-w-\[40\%\]{

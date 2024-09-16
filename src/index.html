@@ -25,6 +25,20 @@
             ticketMenuItem.classList.add("open");
           }
         });
+
+        const prevButton = document.getElementById("previous");
+        const nextButton = document.getElementById("next");
+        const carosel = document.getElementById("carosel");
+
+        prevButton.addEventListener("click", () => {
+          const itemWidth = carosel.getElementsByTagName("div")[0].clientWidth;
+          carosel.scrollLeft = carosel.scrollLeft - itemWidth;
+        });
+
+        nextButton.addEventListener("click", () => {
+          const itemWidth = carosel.getElementsByTagName("div")[0].clientWidth;
+          carosel.scrollLeft = carosel.scrollLeft + itemWidth;
+        });
       };
     </script>
   </head>
@@ -193,76 +207,94 @@
           that music fans are calling "one of the many gigs that will happen
           this year"
         </p>
-        <div class="mt-4 flex w-full snap-x gap-4 overflow-x-auto pb-5">
-          <div class="min-w-[80%] md:min-w-[40%]">
-            <div
-              style="
-                background-image: url(&quot;./assets/images/band1.jpg&quot;);
-              "
-              class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
-            ></div>
-            <h5 class="mt-2">Corduroy Gary</h5>
-            <h6>1st July 9pm - Main State</h6>
+
+        <div class="flex">
+          <div
+            id="previous"
+            class="relative -top-8 flex cursor-pointer items-center justify-center p-2 text-5xl"
+          >
+            <i class="fas fa-angle-left"></i>
           </div>
-          <div class="min-w-[80%] md:min-w-[40%]">
-            <div
-              style="
-                background-image: url(&quot;./assets/images/band2.jpg&quot;);
-              "
-              class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
-            ></div>
-            <h5 class="mt-2">Corduroy Gary</h5>
-            <h6>1st July 9pm - Main State</h6>
+          <div
+            id="carosel"
+            class="mt-4 flex w-full flex-1 snap-x gap-4 overflow-x-auto scroll-smooth pb-5"
+          >
+            <div class="min-w-[80%] md:min-w-[40%]">
+              <div
+                style="
+                  background-image: url(&quot;./assets/images/band1.jpg&quot;);
+                "
+                class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+              ></div>
+              <h5 class="mt-2">Corduroy Gary</h5>
+              <h6>1st July 9pm - Main State</h6>
+            </div>
+            <div class="min-w-[80%] md:min-w-[40%]">
+              <div
+                style="
+                  background-image: url(&quot;./assets/images/band2.jpg&quot;);
+                "
+                class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+              ></div>
+              <h5 class="mt-2">Corduroy Gary</h5>
+              <h6>1st July 9pm - Main State</h6>
+            </div>
+            <div class="min-w-[80%] md:min-w-[40%]">
+              <div
+                style="
+                  background-image: url(&quot;./assets/images/band3.jpg&quot;);
+                "
+                class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+              ></div>
+              <h5 class="mt-2">Corduroy Gary</h5>
+              <h6>1st July 9pm - Main State</h6>
+            </div>
+            <div class="min-w-[80%] md:min-w-[40%]">
+              <div
+                style="
+                  background-image: url(&quot;./assets/images/band4.jpg&quot;);
+                "
+                class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+              ></div>
+              <h5 class="mt-2">Corduroy Gary</h5>
+              <h6>1st July 9pm - Main State</h6>
+            </div>
+            <div class="min-w-[80%] md:min-w-[40%]">
+              <div
+                style="
+                  background-image: url(&quot;./assets/images/band5.jpg&quot;);
+                "
+                class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+              ></div>
+              <h5 class="mt-2">Corduroy Gary</h5>
+              <h6>1st July 9pm - Main State</h6>
+            </div>
+            <div class="min-w-[80%] md:min-w-[40%]">
+              <div
+                style="
+                  background-image: url(&quot;./assets/images/band6.jpg&quot;);
+                "
+                class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+              ></div>
+              <h5 class="mt-2">Corduroy Gary</h5>
+              <h6>1st July 9pm - Main State</h6>
+            </div>
+            <div class="min-w-[80%] md:min-w-[40%]">
+              <div
+                style="
+                  background-image: url(&quot;./assets/images/band7.jpg&quot;);
+                "
+                class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+              ></div>
+              <h5 class="mt-2">Corduroy Gary</h5>
+              <h6>1st July 9pm - Main State</h6>
+            </div>
           </div>
-          <div class="min-w-[80%] md:min-w-[40%]">
-            <div
-              style="
-                background-image: url(&quot;./assets/images/band3.jpg&quot;);
-              "
-              class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
-            ></div>
-            <h5 class="mt-2">Corduroy Gary</h5>
-            <h6>1st July 9pm - Main State</h6>
-          </div>
-          <div class="min-w-[80%] md:min-w-[40%]">
-            <div
-              style="
-                background-image: url(&quot;./assets/images/band4.jpg&quot;);
-              "
-              class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
-            ></div>
-            <h5 class="mt-2">Corduroy Gary</h5>
-            <h6>1st July 9pm - Main State</h6>
-          </div>
-          <div class="min-w-[80%] md:min-w-[40%]">
-            <div
-              style="
-                background-image: url(&quot;./assets/images/band5.jpg&quot;);
-              "
-              class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
-            ></div>
-            <h5 class="mt-2">Corduroy Gary</h5>
-            <h6>1st July 9pm - Main State</h6>
-          </div>
-          <div class="min-w-[80%] md:min-w-[40%]">
-            <div
-              style="
-                background-image: url(&quot;./assets/images/band6.jpg&quot;);
-              "
-              class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
-            ></div>
-            <h5 class="mt-2">Corduroy Gary</h5>
-            <h6>1st July 9pm - Main State</h6>
-          </div>
-          <div class="min-w-[80%] md:min-w-[40%]">
-            <div
-              style="
-                background-image: url(&quot;./assets/images/band7.jpg&quot;);
-              "
-              class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
-            ></div>
-            <h5 class="mt-2">Corduroy Gary</h5>
-            <h6>1st July 9pm - Main State</h6>
+          <div
+            id="next"
+            class="relative -top-8 flex cursor-pointer items-center justify-center p-2 text-5xl"
+          >
+            <i class="fas fas fa-angle-right"></i>
           </div>
         </div>
       </div>
