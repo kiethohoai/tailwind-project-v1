@@ -19,3 +19,4 @@
 ### 4. Building the headliners section & carousel
 
 1. Default base styles for headings
+2. Create a scrollable & snappable carousel in tailwind css
